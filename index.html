@@ -9,106 +9,31 @@
     <link rel="shortcut icon" href="img/ajustes.png" type="image/png">
     <title>REFACCIONARIA GABRIEL</title>
 </head>
-<body>
+<body background="img/portada.jpg">
 
-    <section class="portada">
-        <img src="img/Portada de Facebook de belleza para mujeres de negocios o ventas con foto de mujer simple en rosa.jpg" alt="Portada de la refaccionaria">
-    </section>
     <div class="barra-tareas">
         <div class="logo">
             <img src="img/semi.png" alt="Logo de la refaccionaria">
         </div>
         <div class="opciones">
-            <a href="inicio.html">Inicio</a>
-            <a href="#productos">Productos</a>
+            <a href="index.html">Inicio</a>
+            <a href="inicio.html">Productos</a>
             <a href="#contacto">Contacto</a>
         </div>
         <div class="buscador">
-            <input type="text" id="buscarInput" placeholder="Buscar productos...">
+            <input type="text" id="buscarInput" placeholder="¿Qué estas buscando?...">
             <button onclick="buscar()">Buscar</button>
         </div>
     </div>
-    <section class="contenido" id="productos">
-        <div class="mostrador" id="mostrador">
-            <div class="fila">
-                <div class="item" onclick="cargar(this)">
-                    <div class="contenedor-foto">
-                        <img src="img/reten.png" alt="">
-                    </div>
-                    <p class="descripcion">RETEN</p>
-                    <span class="precio">$ 300</span>
-                </div>
-                <div class="item" onclick="cargar(this)">
-                    <div class="contenedor-foto">
-                        <img src="img/balero.png" alt="">
-                    </div>
-                    <p class="descripcion" id>BALERO </p>
-                    <span class="precio">$ 1000</span>
-                </div>
-                <div class="item" onclick="cargar(this)">
-                    <div class="contenedor-foto">
-                        <img src="img/cruceta.png" alt="">
-                    </div>
-                    <p class="descripcion">CRUCETA
-                    </p>
-                    <span class="precio">$ 300</span>
-                </div>
-                <div class="item" onclick="cargar(this)">
-                    <div class="contenedor-foto">
-                        <img src="img/palanca.jfif" alt="">
-                    </div>
-                    <p class="descripcion">PALANCA DE CAMBIO</p>
-                    <span class="precio">$ 1500</span>
-                </div>
-            </div>
-            <div class="fila">
-                <div class="item" onclick="cargar(this)">
-                    <div class="contenedor-foto">
-                        <img src="img/sincro.jpg" alt="">
-                    </div>
-                    <p class="descripcion">SINCRONIZADORES</p>
-                    <span class="precio">$ 400</span>
-                </div>
-                <div class="item" onclick="cargar(this)">
-                    <div class="contenedor-foto">
-                        <img src="img/sincro.jpg" alt="">
-                    </div>
-                    <p class="descripcion">SINCRONIZADORES</p>
-                    <span class="precio">$ 1500</span>
-                </div>
-                <div class="item" onclick="cargar(this)">
-                    <div class="contenedor-foto">
-                        <img src="img/palanca.jfif" alt="">
-                    </div>
-                    <p class="descripcion">PALANCA DE CAMBIOS</p>
-                    <span class="precio">$ 1500</span>
-                </div>
-                <div class="item" onclick="cargar(this)">
-                    <div class="contenedor-foto">
-                        <img src="img/reten.png" alt="">
-                    </div>
-                    <p class="descripcion">RETEN</p>
-                    <span class="precio">$ 300</span>
-                </div>
-            </div> 
-        </div>
-        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
-        <div class="seleccion" id="seleccion">
-            <div class="cerrar" onclick="cerrar()">
-                &#x2715
-            </div>
-            <div class="info">
-                <img src="img/1.png" alt="" id="img">
-                <h2 id="modelo">NIKE MODEL 1</h2>
-                <p id="descripcion">Descripción Modelo 1</p>
-            </div>
-        </div>
-    </section>
 
-    <script src="script.js"></script>
+    <!-- Botón grande en medio de la página -->
+    <div class="centrar-boton">
+        <a href="inicio.html" class="boton-grande">EMPECEMOS...</a>
+    </div>
+
 </body>
 
-<footer class="footer" id="contacto">
+<footer class="footer2" id="contacto">
     <div class="informacion-contacto">
         <h3>Contacto</h3>
         <p>Dirección: <a href="https://goo.gl/maps/rESGBGMCuQD1zEeX7" target="_blank">Constituyente Alberto Terrones B. 419, Buenos Aires, 80199 Culiacán Rosales, Sin.</a></p>
